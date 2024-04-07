@@ -1,0 +1,252 @@
+body {
+    margin: 0px;
+    background-color: #f7f7fa;
+    font-family: Pretendard,-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  nav {
+    align-items: stretch;
+    display: flex;
+    height: 80px;
+  }
+  main {
+    height: 1300px;
+    background-color: #0000;
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    padding-bottom: 70px;
+  }
+  footer {
+    height: 241px;
+    background-color: #0000;
+  }
+  .nav-first {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    padding-left: 50px;
+  }
+  .nav-sub {
+    align-items: center;
+    column-gap: 28px;
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: flex-end;
+    padding: 0 60px 0 12px;
+  }
+  .nav-sub-item {
+    background: linear-gradient(134deg,#07d8e2 54.07%,#35e99d 99.24%);
+    border-radius: 100px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-right: 4px;
+    padding: 8px 20px 10px 22px;
+  }
+  .nav-sub-icon {
+    align-items: center;
+    column-gap: 28px;
+    display: flex;
+  }
+  .nav-sub-icon2 {
+    background-color: #e0e0e0;
+    content: "";
+    height: 24px;
+    width: 1px;
+  }
+  .banner_area {
+    background-color: #000;
+    height: 299px;
+    text-align: center;
+  }
+  .mainpageview {
+    width: 1096px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    position: relative;
+  }
+  .main-first {
+    margin: 0 auto;
+    padding: 70px 0 20px;
+  }
+  .container {
+    display: flex;
+    align-items: center; /* 수직 가운데 정렬 */
+  /*justify-content: center;/*  /* 수평 가운데 정렬 */
+  }
+  .container-icon {
+    margin-right: 10px; /* 아이콘 텍스트 띄어쓰기 */
+  }
+  .button-area {
+  /*border:  1px solid red;*/
+    margin-top: 30px;
+    width: 874px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap; /* 넘칠 때 다음 줄로 넘어가도록 설정 */
+    gap: 16px 12px;
+  }
+  .button-style {
+    background: #fff;
+    border-radius: 100px;
+    box-shadow: 0 1px 0 0 #00000005;
+    display: flex;
+    height: 92px;
+    max-width: 270px;
+    padding: 14px 40px 0 14px;
+    border: none;
+  }
+  .button-image {
+    border-radius: 50%;
+    height: 64px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 64px;
+  }
+  .button-text {
+    color: #212121;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-left: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .button-refresh {
+    background: #fff;
+    border-radius: 100px;
+    box-shadow: 0 1px 0 0 #00000005;
+    padding: 28px;
+    border: none;
+    height: 92px;
+  }
+  .button-image-sub {
+    border-radius: 50%;
+    height: 32px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 32px;
+  }
+  .newArtistList {
+    padding-top: 70px;
+  }
+  .HomeArtistList {
+    border:  1px solid blue;
+    margin-top: 26px;
+  }
+  .ARTIST_CARD_area {
+    margin-top: 30px;
+    width: 1096px; /* 영역 넓이 수정 */
+    height: 56px; /* 영역 높이 수정 */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px 14px;
+  }
+  .button2-style {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 1px 0 0 #00000005;
+    display: flex;
+    flex-direction: column; /* 내부 요소를 세로로 정렬 */
+    align-items: center; /* 내부 요소를 가운데로 정렬 */
+    justify-content: space-between; /* 내부 요소 사이에 공간을 동일하게 배분 */
+    height: 280px;
+    width: 208px; /* 버튼 가로 크기 수정 */
+    padding : 14px;
+    border: none;
+  }
+  .button2-image {
+    border-radius: 8%;
+    height: 208px; /* 이미지 세로 크기 수정 */
+    object-fit: cover;
+    overflow: hidden;
+    width: 208px; /* 이미지 가로 크기 수정 */
+  }
+  .button2-text {
+    color: #212121;
+    font-size: 19px;
+    font-weight: 800;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .HomePageView_home_footer {
+    width: 1096px;
+    margin: auto auto 0;
+    padding: 0 50px 70px; 
+  }
+  .FooterView_home_color {
+    color: #444;
+  }
+  .FooterView_footer_WKfdP {
+    color: #949494;
+    font-size: 12px;
+    line-height: 21px;
+    overflow: hidden;
+  }
+  .FooterView_link_list {
+    font-size: 13px;
+    margin: 0;
+    margin-left: -40px;
+  }
+  .FooterView_link_item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px 2px 0;
+    position: relative;
+  }
+  .FooterView_link_item:before {
+    background: #e9e9ec;
+    content: "";
+    height: 12px;
+    left: -10px;
+    position: absolute;
+    top: 5px;
+    width: 1px;
+  }
+  .FooterView_privacy {
+    font-weight: 700;
+  }
+  .FooterView_address {
+    border-top: 1px solid #efeff3;
+    margin-top: 18px;
+    padding: 20px 0 22px;
+  }
+  .FooterView_address_item {
+   color: #8e8e8e;
+   font-size: 12px;
+   line-height: 20px;
+   display: inline-block;
+   vertical-align: top;
+   margin: 0 20px 2px 0;
+   position: relative;
+  }
+  .FooterView_address_item:before {
+   background: #e9e9ec;
+   content: "";
+   height: 12px;
+   left: -10px;
+   position: absolute;
+   top: 5px;
+   width: 1px;
+  }
+  address {
+   font-style: normal;
+  }
+  .FooterView_information_title {
+   font-weight: 700;
+   display: inline-block;
+  }
+  .FooterView_information_text {
+   font-weight: 500;
+   display: inline-block;
+   margin-left: 3px;
+  }
